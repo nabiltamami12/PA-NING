@@ -1,0 +1,84 @@
+body
+
+{
+
+background-color: black;
+
+}
+
+#card {
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 410px;
+        margin: 6rem auto 8.1rem auto;
+        width: 329px;
+}
+
+.login
+
+{
+
+background-color: white;
+
+width: 350px;
+
+padding: 20px;
+
+margin: auto;
+
+margin-top: 100px;
+
+border: 2px solid black;
+
+font-size: 18px;
+
+}
+
+ 
+
+h3
+
+{
+
+background-color: orange;
+
+text-align: center;
+
+color: white;
+
+padding: 10px;
+
+border-radius: 7px;
+
+}
+
+ 
+
+input
+
+{
+
+width: 100%;
+
+padding: 12px 10px;
+
+box-sizing: border-box;
+
+font-size: 18px;
+
+}
+
+ 
+
+input[type=submit]
+
+{
+
+background-color: crimson;
+
+border-radius:18px;
+
+color: white;
+
+}

@@ -1,0 +1,155 @@
+
+<div id="boxlogin">
+																
+								<table>									
+										<tbody><tr>
+											<td>User ID:</td>
+											<td>
+												<input id="login_input" name="userName" tabindex="1" onkeypress="doLogin(this.form,event)" type="text" value="" size="30" maxlength="30" autocomplete="0">
+											</td>
+										</tr>
+										<tr>
+											<td>Password:</td>
+											<td>
+											   <input type="password" name="passwordEncryption" size="32" id="login_input" maxlength="30" onkeypress="doLogin(this.form,event)" tabindex="2" value="">
+											</td>
+										</tr>
+										<tr>
+											<td></td>
+											<td> 
+												<input type="button" value="Ulang" id="button" onclick="onClearClickLogin(this.form);">
+												<input type="button" value="Masuk" id="button" onclick="if(validateXSS()){ onLoginClick();}">
+												
+													<div class="row">
+														&nbsp;&nbsp;<br><br>
+													</div>
+												
+											</td>
+										</tr>
+										
+										<tr>
+											<td colspan="2">
+																								 
+											</td>
+										</tr>									
+								</tbody></table>
+									<div id="demo">
+										<a href="/retail/login/doForgotPassword;JSESSIONIDRETAIL=LSw6fJXdRZHxbwJSvNBzJGXTyFdN74vv4TfJLlf6GGbdTcV3cqgq!1995375171!-1512219796?forgotPasswordFlag=Y" id="forgotpasswordlink" tabindex="4" onclick="loadingBarHasParent();">
+										Lupa Password?
+										</a> &nbsp; &nbsp;
+									</div>											
+							</div>
+
+<div id="popUp" style="display: block;">
+						<table align="center" cellpadding="5" cellspacing="3" style="background-color: rgb(255, 255, 255); border: 1px solid; border-radius: 10px; position: relative;" class="ui-corner-all ui-draggable">
+							<tbody><tr id="headerSecurity" cellpadding="5" cellspacing="3">
+								<td colspan="3">   
+									<label>
+									PERTANYAAN KEAMANAN
+									</label>
+									<a class="ui-dialog-titlebar-close ui-corner-all" href="/retail/login/loginRequest" role="button" onclick="onHideAnswer(this.form);">
+										<span class="ui-icon ui-icon-closethick" style="position: absolute; top: 8px; right: 10px;">close</span>
+									</a>
+									<div>
+									</div>
+								</td>
+							</tr>
+								
+							<tr>
+								<td rowspan="3">
+								
+									
+									<img src="/common/image/Logo_Bank_BTN_NINGRUM.jpg" width="80px" height="120px">
+									
+								</td>
+								
+								<td>
+									Pertanyaan</td>
+								<td>: &nbsp;&nbsp;
+									In what year was your father born?
+								</td>	
+								
+							</tr>
+							<tr>
+								
+									<td>
+										Jawaban</td>
+									<td>:
+										<input type="password" name="securityAnswer" size="500" id="login_input" maxlength="30" autocomplete="off" onkeypress="if(validateXSS()) onAnswerClick13(this.form,event);" tabindex="2" value="">
+ 														
+								
+							</td></tr>
+							<tr>
+								<td></td>
+								<td>&nbsp;&nbsp;
+									<input type="button" name="submit1" id="button" onclick="if(validateXSS()) onAnswerClick(this.form);" value="Kirim">
+									<input type="button" name="clear" id="button" onclick="onClearAnswerClick(this.form);" value="Hapus">				
+
+								</td>
+							</tr>
+							
+						</tbody></table>	
+								
+
+			</div>
+
+======================================================================================================Login===========================================================
+title="Informasi"
+
+<a onclick="onDetailClickAcct('22401561890112','SBA');parent.loadingBar();" href="#">    
+					   												    NINGRUM FADILLAH</a>
+<th class="cs111bt" width="193px" style="padding-right:5px">
+																	Nominal Debet
+																</th>
+<th class="cs111bt" width="193px" style="padding-right:5px">
+																	Nominal Kredit
+																</th>
+<th class="cs111bt" width="193px" style="padding-right:5px">
+																	<span>
+																		Saldo Rekening
+																	 </span>
+																</th>
+
+
+<div class="cs112a">
+						<h2>
+							Rincian Rekening
+						</h2>
+						<ul>
+							<li>
+								<h4>
+									Nama dan Nomor Rekening:
+								</h4>
+								<p>
+									NINGRUM FADILLAH<br>
+									22401561890112
+								</p>
+								<p>
+									
+									
+								</p>
+								<h4>
+									Saldo yang dapat digunakan:
+								</h4>
+								<p>
+									IDR
+									30,000.00
+
+									
+								</p>
+								<input id="availableBalance" name="availableBalance" type="hidden" value="30000.00">
+							</li>
+						</ul>
+					</div>
+
+
+
+//*[@id="balanceInquiryForm"]/div[3]/div[2]/div/div/div[1]/ul/li/p[3]
+
+======================================================================================================Mencari Nilai debet Kredit===========================================================
+
+
+
+
+
+Notifikasi Sistem :  APR-1110141 - User sedang login. Mohon menunggu selama 15.00 menit.
